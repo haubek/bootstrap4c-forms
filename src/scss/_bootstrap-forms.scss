@@ -43,6 +43,9 @@ input {
   background-position: center right ($input-height / 4);
   background-size: ($input-height / 1.33333) ($input-height / 1.33333);
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='#{$form-control-icon-calendar-color}' d='#{$form-control-icon-calendar-svg}'/%3E%3C/svg%3E");
+  &.form-control-danger {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='#{$form-icon-danger-color}' d='#{$form-control-icon-calendar-svg}'/%3E%3C/svg%3E");
+  }
 }
 .form-control-monospace {
   font-family: $form-family-monospace;
