@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.3
+
+* Publishing issues
+
 ## 1.0.2
 
 * Publishing issues
