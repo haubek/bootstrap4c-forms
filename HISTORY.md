@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.4
+
+* Support for time icon
+
 ## 1.0.3
 
 * Publishing issues
