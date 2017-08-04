@@ -1,5 +1,10 @@
 # Release History
 
+## 1.0.5
+
+* SASS SVG URI
+* Change to [readonly] class
+
 ## 1.0.4
 
 * Support for time icon
