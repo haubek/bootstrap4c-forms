@@ -4,7 +4,7 @@ input {
       -webkit-appearance: none;
       width: 1.25rem;
       height: 1.25rem;
-      background: transparent svg-uri("<svg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'><path fill='#{$form-search-cancel-button-color}' d='#{$form-search-cancel-button-svg}'/></svg>") no-repeat 0 0;
+      background: transparent svg-uri("<svg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'><path fill='#{$forms-search-cancel-button-color}' d='#{$forms-search-cancel-button-svg}'/></svg>") no-repeat 0 0;
     }
   }
 }
@@ -15,7 +15,7 @@ input {
     background-repeat: no-repeat;
     background-position: center right ($input-height / 4);
     background-size: ($input-height / 2) ($input-height / 2);
-    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$form-control-disabled-color}' d='#{$form-control-disabled-svg}'/></svg>");
+    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-disabled-color}' d='#{$forms-control-disabled-svg}'/></svg>");
   }
 }
 .form-control-xs {
@@ -34,7 +34,7 @@ input {
 }
 .form-control-xl {
   padding: $input-padding-y-lg $input-padding-x-lg;
-  font-size: $font-size-h3;
+  font-size: $h3-font-size;
   @include border-radius($input-border-radius-lg);
 }
 .form-control-icon-calendar,
@@ -45,24 +45,24 @@ input {
   background-size: 1.5rem 1.5rem;
 }
 .form-control-icon-calendar {
-  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$form-control-icon-calendar-color}' d='#{$form-control-icon-calendar-svg}'/></svg>");
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-icon-calendar-color}' d='#{$forms-control-icon-calendar-svg}'/></svg>");
   &.form-control-danger {
-    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$form-icon-danger-color}' d='#{$form-control-icon-calendar-svg}'/></svg>");
+    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-icon-danger-color}' d='#{$forms-control-icon-calendar-svg}'/></svg>");
   }
 }
 .form-control-icon-time {
-  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$form-control-icon-time-color}' d='#{$form-control-icon-time-svg}'/></svg>");
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-icon-time-color}' d='#{$forms-control-icon-time-svg}'/></svg>");
   &.form-control-danger {
-    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$form-icon-danger-color}' d='#{$form-control-icon-time-svg}'/></svg>");
+    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-icon-danger-color}' d='#{$forms-control-icon-time-svg}'/></svg>");
   }
 }
 .form-control-monospace {
-  font-family: $form-family-monospace;
+  font-family: $forms-family-monospace;
   letter-spacing: .125rem;
 }
 .form-control-monospace-focus {
   &:focus {
-    font-family: $form-family-monospace;
+    font-family: $forms-family-monospace;
     letter-spacing: .125rem;
   }
 }

@@ -6,14 +6,14 @@ The *Bootstrap4C Forms* is a simple Bootstrap 4 component that extend the defaul
 
 See demo here => https://haubek.github.io
 
-### Bower install
+### NPM install
 
 ```
-bower install bootstrap4c-forms
+npm install bootstrap4c-forms
 ```
 
 ### CSS
 
 ```
-<link href="path/to/component-forms.css" rel="stylesheet">
+<link href="path/to/component-forms.min.css" rel="stylesheet">
 ```
