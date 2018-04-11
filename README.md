@@ -6,10 +6,10 @@ The *Bootstrap4C Forms* is a simple Bootstrap 4 component that extend the defaul
 
 See demo here => https://haubek.github.io
 
-### NPM install
+### Yarn install
 
 ```
-npm install bootstrap4c-forms
+yarn add bootstrap4c-forms
 ```
 
 ### CSS
