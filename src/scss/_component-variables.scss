@@ -10,6 +10,11 @@ $forms-control-icon-calendar-svg        : "M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.9
 $forms-control-icon-time-color          : $gray-500;
 $forms-control-icon-time-svg            : "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z";
 
+$forms-control-svg-color                : $gray-500;
+$forms-control-svg-color-selected       : $link-color;
+$forms-control-svg-up                   : "M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z";
+$forms-control-svg-down                 : "M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z";
+
 $forms-icon-danger-color                : $danger;
 
 $forms-family-monospace                 : $font-family-monospace;

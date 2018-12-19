@@ -90,3 +90,35 @@ input {
     opacity: 1;
   }
 }
+.form-control-select:not([multiple]) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: $input-height-inner;
+  margin: 0;
+  padding: .375rem 2rem .375rem .75rem;
+  background-color: white;
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-svg-color}' d='#{$forms-control-svg-down}'/></svg>");
+  background-repeat: no-repeat, repeat;
+  background-position: right .25rem top .125rem, 2rem 2rem;
+  background-size: auto, 100%;
+  border: 1px solid $input-border-color;
+  border-radius: $input-border-radius;
+  box-shadow: none;
+  box-sizing: border-box;
+  appearance: none;
+  font-family: $font-family-base;
+  font-weight: normal;
+  line-height: 1.3;
+  color: $gray-700;
+  &:focus {
+    border-color: $input-focus-border-color;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 .2rem -moz-mac-focusring;
+    color: $gray-700;
+    outline: none;
+  }
+  option {
+    font-weight: normal;
+  }
+}
