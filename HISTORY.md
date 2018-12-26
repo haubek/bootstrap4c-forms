@@ -1,5 +1,11 @@
 # Release History
 
+## 1.0.9
+
+* Upgraded to Bootstrap 4.2.1
+* Added new icon `search`
+* Added new icon `lock`
+
 ## 1.0.8
 
 * Upgraded to Bootstrap 4.1.3

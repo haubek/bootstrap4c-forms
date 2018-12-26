@@ -10,6 +10,12 @@ $forms-control-icon-calendar-svg        : "M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.9
 $forms-control-icon-time-color          : $gray-500;
 $forms-control-icon-time-svg            : "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z";
 
+$forms-control-icon-search-color        : $gray-500;
+$forms-control-icon-search-svg          : "M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z";
+
+$forms-control-icon-lock-color          : $gray-500;
+$forms-control-icon-lock-svg            : "M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z";
+
 $forms-control-svg-color                : $gray-500;
 $forms-control-svg-color-selected       : $link-color;
 $forms-control-svg-up                   : "M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z";

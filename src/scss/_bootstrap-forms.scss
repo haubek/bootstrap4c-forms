@@ -38,7 +38,9 @@ input {
   @include border-radius($input-border-radius-lg);
 }
 .form-control-icon-calendar,
-.form-control-icon-time {
+.form-control-icon-time,
+.form-control-icon-search,
+.form-control-icon-lock {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
   background-position: center right .365rem;
@@ -55,6 +57,15 @@ input {
   &.form-control-danger {
     background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-icon-danger-color}' d='#{$forms-control-icon-time-svg}'/></svg>");
   }
+}
+.form-control-icon-search {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-icon-search-color}' d='#{$forms-control-icon-search-svg}'/></svg>");
+  &.form-control-danger {
+    background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-icon-danger-color}' d='#{$forms-control-icon-search-svg}'/></svg>");
+  }
+}
+.form-control-icon-lock {
+  background-image: svg-uri("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='#{$forms-control-icon-lock-color}' d='#{$forms-control-icon-lock-svg}'/></svg>");
 }
 .form-control-monospace {
   font-family: $forms-family-monospace;
